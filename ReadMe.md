@@ -15,4 +15,5 @@ Ideas:
 - User writes zodiac, HG writes horoscope back in chat
 - User writes zodiac, HG writes horoscope back as pm
 - User can donate, after HG writes back
-- 
+- Use webscrapper for horoscope content
+- Train ai-model to generate horoscope content
