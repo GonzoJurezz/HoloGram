@@ -17,8 +17,8 @@ def get_horoscope_by_day_eng(zodiac_sign: int, day: str):
 
 def get_horoscope_by_day_ger(zodiac_sign: str):
     res = requests.get(
-        f"https://www.astrolantis.de/tageshoroskop-{zodiac_sign}.php")
+        f"https://www.mein-horoskop-jeden-tag.com/horoskop/heute/{zodiac_sign}.htm")
 
     soup = BeautifulSoup(res.content, 'html.parser')
-    data = soup.find('div', attrs={'class': 'main-horoscope'})
+    data = soup.find('div', attrs={'class': 'slk_s slk_s0 slk_hq'})
     return data.p.text
