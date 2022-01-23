@@ -44,7 +44,7 @@ def get_horoscope_nat(zodiac_sign: str):
     return horoscope_txt
 
 
-# horoskop: https://horoskop.de/dein-horoskop/widder/tageshoroskop/
+# horoskop: https://horoskop.de
 def get_horoscope_hk(zodiac_sign: str):
     res = requests.get(
         f"https://horoskop.de/dein-horoskop/{zodiac_sign}/tageshoroskop/")
@@ -54,4 +54,14 @@ def get_horoscope_hk(zodiac_sign: str):
     return horoscope_txt
 
 
-print(get_horoscope_hk('widder'))
+# horoskop: https://mein.astrocenter.de
+def get_horoscope_mac(zodiac_sign: str):
+    res = requests.get(
+        f"https://mein.astrocenter.de/horoskop/tag/{zodiac_sign}/")
+
+    soup = BeautifulSoup(res.content, 'lxml')
+    horoscope_txt = soup.find_all('div', class_='article-horoscope')
+    return horoscope_txt
+
+
+print(get_horoscope_mac('widder'))
