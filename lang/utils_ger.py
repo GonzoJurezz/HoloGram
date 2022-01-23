@@ -70,8 +70,8 @@ def get_horoscope_shk(zodiac_sign: str):
         f"https://sternbild-horoskop.de/tageshoroskop/horoskop-{zodiac_sign}/")
 
     soup = BeautifulSoup(res.content, 'lxml')
-    horoscope_txt = soup.find_all('h2', class_=f'avia_textblock horoskop_text {zodiac_sign}')
+    horoscope_txt = soup.find('div', class_=f'avia_textblock horoskop_text {zodiac_sign}').div.text
     return horoscope_txt
 
 
-print(get_horoscope_mac('widder'))
+print(get_horoscope_shk('widder'))
