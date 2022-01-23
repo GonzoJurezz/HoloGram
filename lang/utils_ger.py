@@ -21,8 +21,8 @@ def get_horoscope_mhjt(zodiac_sign: str):
         f"https://www.mein-horoskop-jeden-tag.com/horoskop/heute/{zodiac_sign}.htm")
 
     soup = BeautifulSoup(res.content, 'lxml')
-    horoscope_txt = soup.find('div', class_='txt')
-    return horoscope_txt.p.text
+    horoscope_txt = soup.find('div', class_='txt').p.text
+    return horoscope_txt
 
 
 # horoskop: www.astroportal.com
@@ -30,9 +30,17 @@ def get_horoscope_ap(zodiac_sign: str):
     res = requests.get(
         f"https://www.astroportal.com/tageshoroskope/{zodiac_sign}/")
 
+    horoscope_txt = BeautifulSoup(res.content, 'lxml').text
+    return horoscope_txt
+
+
+# horoskop: https://natune.net
+def get_horoscope_nat(zodiac_sign: str):
+    res = requests.get(
+        f"https://natune.net/horoskop/tageshoroskop-{zodiac_sign}")
+
     soup = BeautifulSoup(res.content, 'lxml')
-    horoscope_txt = soup.find('div', class_='h2')
-    return soup.p.text
+    horoscope_txt = soup.find('div', class_='szcontent').div.div.text
+    return horoscope_txt
 
-
-print(get_horoscope_ap('widder'))
+print(get_horoscope_nat('widder'))
