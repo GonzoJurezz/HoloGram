@@ -36,7 +36,7 @@ def caps(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text=text_caps)
 
 
-echo(utils.get_horoscope_by_day(3, 'today'))
+echo(utils.get_horoscope_by_day(3, ))
 
 caps_handler = CommandHandler('caps', caps)
 dispatcher.add_handler(caps_handler)
