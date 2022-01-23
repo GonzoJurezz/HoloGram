@@ -8,6 +8,7 @@ Features:
 - 
 - HG can repeat what Users write
 - HG can say hallo when started
+- Use webscrapper for horoscope content
 
 
 Ideas: 
@@ -15,5 +16,7 @@ Ideas:
 - User writes zodiac, HG writes horoscope back in chat
 - User writes zodiac, HG writes horoscope back as pm
 - User can donate, after HG writes back
-- Use webscrapper for horoscope content
+- web scrape english horoscope (training data)
+- web scrape german horoscope 
+- Use deepl.com-API to translate the english horoscope
 - Train ai-model to generate horoscope content
