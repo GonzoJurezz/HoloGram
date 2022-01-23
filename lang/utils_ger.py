@@ -74,4 +74,15 @@ def get_horoscope_shk(zodiac_sign: str):
     return horoscope_txt
 
 
-print(get_horoscope_shk('widder'))
+# horoskop: https://www.cosmopolitan.de
+def get_horoscope_cmp(zodiac_sign: str):
+    res = requests.get(
+        f"https://www.cosmopolitan.de/tageshoroskop/heute/{zodiac_sign}")
+
+    soup = BeautifulSoup(res.content, 'lxml')
+    horoscope_txt = soup.find('div', class_='bx-content--horoscope bx-js-horoscope-1-1').div.div.text
+    return horoscope_txt
+
+
+print(get_horoscope_cmp('widder'))
+
