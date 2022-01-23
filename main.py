@@ -1,12 +1,11 @@
 from telegram.ext import Updater
 import os
+import lang
 import logging
 from telegram import Update
 from telegram.ext import CallbackContext
 from telegram.ext import CommandHandler
 from telegram.ext import MessageHandler, Filters
-
-import utils
 
 updater = Updater(token=os.environ['TOKEN'], use_context=True)
 dispatcher = updater.dispatcher
@@ -36,7 +35,6 @@ def caps(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text=text_caps)
 
 
-echo(utils.get_horoscope_by_day(3, ))
 
 caps_handler = CommandHandler('caps', caps)
 dispatcher.add_handler(caps_handler)
