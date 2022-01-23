@@ -43,4 +43,15 @@ def get_horoscope_nat(zodiac_sign: str):
     horoscope_txt = soup.find('div', class_='szcontent').div.div.text
     return horoscope_txt
 
-print(get_horoscope_nat('widder'))
+
+# horoskop: https://horoskop.de/dein-horoskop/widder/tageshoroskop/
+def get_horoscope_hk(zodiac_sign: str):
+    res = requests.get(
+        f"https://horoskop.de/dein-horoskop/{zodiac_sign}/tageshoroskop/")
+
+    soup = BeautifulSoup(res.content, 'lxml')
+    horoscope_txt = soup.find('p', class_='module-daily-horoscope__copy').text
+    return horoscope_txt
+
+
+print(get_horoscope_hk('widder'))
