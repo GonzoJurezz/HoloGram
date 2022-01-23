@@ -57,10 +57,20 @@ def get_horoscope_hk(zodiac_sign: str):
 # horoskop: https://mein.astrocenter.de
 def get_horoscope_mac(zodiac_sign: str):
     res = requests.get(
-        f"https://mein.astrocenter.de/horoskop/tag/{zodiac_sign}/")
+        f"https://mein.astrocenter.de/horoskop/tag/{zodiac_sign}")
 
     soup = BeautifulSoup(res.content, 'lxml')
-    horoscope_txt = soup.find_all('div', class_='article-horoscope')
+    horoscope_txt = soup.find('div', class_='article-horoscope').p.text
+    return horoscope_txt
+
+
+# horoskop: https://sternbild-horoskop.de
+def get_horoscope_shk(zodiac_sign: str):
+    res = requests.get(
+        f"https://sternbild-horoskop.de/tageshoroskop/horoskop-{zodiac_sign}/")
+
+    soup = BeautifulSoup(res.content, 'lxml')
+    horoscope_txt = soup.find_all('h2', class_=f'avia_textblock horoskop_text {zodiac_sign}')
     return horoscope_txt
 
 
