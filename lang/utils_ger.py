@@ -55,7 +55,8 @@ class horoscopeOutput:
                 f"https://sternbild-horoskop.de/tageshoroskop/horoskop-{zodiac_sign}/")
 
             soup = BeautifulSoup(res.content, 'lxml')
-            horoscope_txt = soup.find('div', class_=f'avia_textblock horoskop_text {zodiac_sign}').div.text
+            # class is always widder on this site
+            horoscope_txt = soup.find('div', class_=f'avia_textblock horoskop_text widder').div.text
             return horoscope_txt
 
     # horoskop: https://www.cosmopolitan.de
