@@ -4,7 +4,7 @@ Introduction:
 
 This is a Python bot. If you ask for your horoscope, you will get your horoscope.
 
-Features:
+Features done:
 - 
 - HG can repeat what Users write
 - HG can say hallo when started
