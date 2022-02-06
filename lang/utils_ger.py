@@ -67,5 +67,10 @@ class horoscopeOutput:
             return horoscope_txt
 
 
-print(horoscopeOutput.get_horoscope_cmp('widder'))
 
+def main():
+    print(horoscopeOutput.get_horoscope_cmp('widder'))
+
+
+if __name__ == '__main__':
+    main()
