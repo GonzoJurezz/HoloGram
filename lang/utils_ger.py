@@ -18,7 +18,8 @@ class horoscopeOutput:
             res = requests.get(
                 f"https://www.astroportal.com/tageshoroskope/{zodiac_sign}/")
 
-            horoscope_txt = BeautifulSoup(res.content, 'lxml').text
+            soup = BeautifulSoup(res.content, 'lxml')
+            horoscope_txt = soup.find('h4', class_ ='h2').parent.p.text
             return horoscope_txt
 
     # horoskop: https://natune.net
