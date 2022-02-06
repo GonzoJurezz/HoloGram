@@ -6,6 +6,11 @@ class horoscopeOutput:
 
     # horoskop: mein-horoskop-jeden-tag.com
         def get_horoscope_mhjt(zodiac_sign: str):
+            if zodiac_sign == 'loewe':
+                zodiac_sign ='lowe'
+            if zodiac_sign == 'schuetze':
+                zodiac_sign ='schutze'
+
             res = requests.get(
             f"https://www.mein-horoskop-jeden-tag.com/horoskop/heute/{zodiac_sign}.htm")
 
@@ -18,7 +23,8 @@ class horoscopeOutput:
             res = requests.get(
                 f"https://www.astroportal.com/tageshoroskope/{zodiac_sign}/")
 
-            horoscope_txt = BeautifulSoup(res.content, 'lxml').text
+            soup = BeautifulSoup(res.content, 'lxml')
+            horoscope_txt = soup.find('h4', class_ ='h2').parent.p.text
             return horoscope_txt
 
     # horoskop: https://natune.net
@@ -54,7 +60,8 @@ class horoscopeOutput:
                 f"https://sternbild-horoskop.de/tageshoroskop/horoskop-{zodiac_sign}/")
 
             soup = BeautifulSoup(res.content, 'lxml')
-            horoscope_txt = soup.find('div', class_=f'avia_textblock horoskop_text {zodiac_sign}').div.text
+            # class is always widder on this site
+            horoscope_txt = soup.find('div', class_=f'avia_textblock horoskop_text widder').div.text
             return horoscope_txt
 
     # horoskop: https://www.cosmopolitan.de
@@ -67,5 +74,10 @@ class horoscopeOutput:
             return horoscope_txt
 
 
-print(horoscopeOutput.get_horoscope_cmp('widder'))
 
+def main():
+    print(horoscopeOutput.get_horoscope_cmp('widder'))
+
+
+if __name__ == '__main__':
+    main()
