@@ -6,6 +6,11 @@ class horoscopeOutput:
 
     # horoskop: mein-horoskop-jeden-tag.com
         def get_horoscope_mhjt(zodiac_sign: str):
+            if zodiac_sign == 'loewe':
+                zodiac_sign ='lowe'
+            if zodiac_sign == 'schuetze':
+                zodiac_sign ='schutze'
+
             res = requests.get(
             f"https://www.mein-horoskop-jeden-tag.com/horoskop/heute/{zodiac_sign}.htm")
 
