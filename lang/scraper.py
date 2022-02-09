@@ -4,10 +4,10 @@ from datetime import datetime
 import inspect
 
 
-zodiac_signs = ["widder", "stier", "zwillinge", "krebs", "loewe", "jungfrau",
+ZODIAC_SIGNS = ["widder", "stier", "zwillinge", "krebs", "loewe", "jungfrau",
                 "waage", "skorpion", "schuetze", "steinbock", "wassermann",
                 "fische"]
-json_file_name = "data/"+datetime.today().strftime('%Y%m%d') + ".json"
+JSON_FILE_NAME = "data/"+datetime.today().strftime('%Y%m%d') + ".json"
 
 
 def get_horoscopes(zodiac_signs:list, functions:list):
@@ -44,7 +44,7 @@ def get_horoscopes(zodiac_signs:list, functions:list):
     errors = []
 
     for f in functions:
-        for zs in zodiac_signs:
+        for zs in ZODIAC_SIGNS:
             try:
                 hs.append( {"func":f.__name__, "zodiac_sign":zs, "text":f(zs)} )
             except Exception as e:
@@ -73,22 +73,22 @@ def dump_json(hs:list, file_name:str):
 def main():
     hO = horoscopeOutput
 
-    # get all functions of the horoscopeOutput class
+    # Get all functions of the horoscopeOutput class
     attrs = list((getattr(hO, name) for name in dir(hO)))
     functions = [attr for attr in attrs if inspect.isfunction(attr)]
-    #print(list(map(lambda x: x.__name__, functions)))
+    #rint(list(map(lambda x: x.__name__, functions)))
 
     #scrape all horoscopes for today
-    (hs, errors) = get_horoscopes(zodiac_signs, functions)
+    (hs, errors) = get_horoscopes(ZODIAC_SIGNS, functions)
 
-    #print errors if any
+    # Print errors if any
     if(errors != []):
         print("-----------------ERRORS-----------------")
         for e in errors:
             print(e)
 
-    #dump json file of todays scraped horoscopes
-    dump_json(hs, json_file_name)
+    # Dump json file of todays scraped horoscopes
+    dump_json(hs, JSON_FILE_NAME)
 
 
 if __name__ == '__main__':
