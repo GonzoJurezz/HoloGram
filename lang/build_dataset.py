@@ -43,6 +43,7 @@ def build_dataset(json_data:list):
         # TODO: Maybe delete the '>>>' characters occuring in some texts
         # Replace every whitespace character with space
         text = re.sub(r"\s", " ", text)
+        text = re.sub(">")
 
         data += text + "\n"
 
