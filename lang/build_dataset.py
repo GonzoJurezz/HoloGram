@@ -40,10 +40,10 @@ def build_dataset(json_data:list):
     for dict in json_data:
 
         text = str(dict['text']).strip()
-        # TODO: Maybe delete the '>>>' characters occuring in some texts
         # Replace every whitespace character with space
         text = re.sub(r"\s", " ", text)
-        text = re.sub(">")
+        # Cut occurring ">" and "<"
+        text = re.sub(r"<|>", "", text)
 
         data += text + "\n"
 
