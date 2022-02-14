@@ -12,7 +12,7 @@ Features done:
 
 
 Ideas: 
-- 
+- User writes zodiac and topic (like finance, love etc), HG wirtes horoscope back in regard to topic
 - User writes zodiac, HG writes horoscope back in chat
 - User writes zodiac, HG writes horoscope back as pm
 - User can donate, after HG writes back
