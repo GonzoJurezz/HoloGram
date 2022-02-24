@@ -1,6 +1,5 @@
 from telegram.ext import Updater
 import os
-import lang
 import logging
 from telegram import Update
 from telegram.ext import CallbackContext
