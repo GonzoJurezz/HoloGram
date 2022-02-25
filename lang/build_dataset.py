@@ -27,22 +27,23 @@ def load_json(file_name:str):
 
 def build_dataset(json_data:list):
     '''
-    Reads list of json dicts, takes 'text' field, prepares texts, and apend them
-    to string seperated by newlines.
+    Reads list of json dicts, takes 'text' field, prepares texts, and append them
+    to string separated by newlines.
 
     @type json_data: list
     @param json_data: List of json dicts
 
     @rtype: str
-    @return: Dataset as string seperated by newlines
+    @return: Dataset as string separated by newlines
     '''
     data = ''
     for dict in json_data:
 
         text = str(dict['text']).strip()
-        # TODO: Maybe delete the '>>>' characters occuring in some texts
         # Replace every whitespace character with space
         text = re.sub(r"\s", " ", text)
+        # Cut occurring ">" and "<"
+        text = re.sub(r"<|>", "", text)
 
         data += text + "\n"
 
@@ -59,12 +60,12 @@ def main():
         json_data += load_json(file_name)
 
     # Split training and test dataset
-    train, test = train_test_split(json_data,test_size=TEST_DATASET_PERCENTAGE)
+    train, test = train_test_split(json_data, test_size=TEST_DATASET_PERCENTAGE)
 
     train_data = build_dataset(train)
     test_data = build_dataset(test)
 
-    # Write datasets as textfiles
+    # Write datasets as text files
     with open('train_data.txt', 'w') as f:
         f.write(train_data)
 

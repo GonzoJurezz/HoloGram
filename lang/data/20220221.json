@@ -1,0 +1,422 @@
+[
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "widder",
+        "text": "Sie müssen sich nicht durchboxen und befinden sich in guter Gesellschaft. Ihr Freundeskreis steht hinter Ihnen und stärkt Sie, auch Ihre Familie versteht Sie, sofern Sie sich öffnen. Es fällt Ihnen oft schwer, die Dinge anzusprechen, doch zeigen Sie sich mutig und entschlossen, Sie werden verstanden, solange Sie sich auf Ihr Herz beziehen. Ihre Verbindungen kennen Sie und zeigen Ihnen den richtigen Weg, haben Sie Vertrauen und gehen Sie ihn, es ist noch nicht zu spät. "
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "stier",
+        "text": "Blitzschnell agieren Sie zurzeit. So schnell wie Sie gerade im Büro eine Sachlage klären oder Probleme lösen, kommt Ihnen bestimmt niemand nach. Allerdings verstehen Sie es, Ihre derzeitigen Geistesblitze nicht nur für sich zu verwenden, sondern zum Wohle aller. Vor allem im Büro verschaffen Sie sich neue Freunde durch diese kollegiale Art und soziale Ader. Gruppenarbeiten gestalten sich bei weitem nicht so problematisch wie sonst und auch Diskussionen können friedlich gelöst werden. Auch im Privatleben verläuft ihr Alltag harmonisch ab."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "zwillinge",
+        "text": "Ihr Körper und Ihr Geist befinden sich im Einklang. Sie fühlen sich dadurch fit und sind zufrieden. Mit diesen Ressourcen an Energie starten Sie ganz motiviert in den Tag und arbeiten fleißig und effizient. Sie sollten den Zeitpunkt des Ausgleichs für eine Auszeit nutzen. Ein paar Tage Erholung kämen gerade recht. Überlegen Sie sich einfach wie Sie sich zusätzlich zu Ihrem Wohlbefinden noch entspannen können."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "krebs",
+        "text": "Der heutige Tag ist nur für Ihre Liebesgefühle und Ihren Partner reserviert. Schon lange nicht mehr haben Sie die Seele baumeln lassen und sich nur Ihrem Partner gewidmet. Heute ist es auch günstig für Singles den Partner fürs Leben kennen zu lernen. Sie sollten Ihre Augen offen halten und wachsam sein. Dieser Tag wird Ihnen mit Bestimmtheit lange in Erinnerung bleiben. Sollten Sie mit jemandem im Streit sein, nützen Sie die Gelegenheit und räumen Sie die Ungereimtheiten aus dem Weg."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "loewe",
+        "text": "Sie überlegen schon so lange, endlich Ihre Vorhaben in die Tat umzusetzen doch bis jetzt waren Sie zu skeptisch aufgrund der finanziellen und privaten Probleme, die sich dadurch ergeben könnten. Doch um neue Chancen auszunutzen zu können muss man auch einiges riskieren. Sie fühlen sich so voller Energie und Tatendrang, wenn nicht jetzt, wann dann? Also ran an die Sache, mit dem Elan, den Sie an den Tag legen, kann das nur gut gehen."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "jungfrau",
+        "text": "Ihre positive Ausstrahlung fasziniert alle Menschen in Ihrer Umgebung. Basis dafür bilden ein gesunder Körper und ein klarer Geist. Sie haben in letzter Zeit viel Energie gesammelt und strotzen nur so vor Selbstvertrauen und Motivation. Ihnen gelingt es auch, ohne viel Bemühen, Ihre Mitmenschen anzustecken und Ihre Energie weiterzuleiten."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "waage",
+        "text": "Sie haben gedacht, dass Ihre Menschenkenntnis Sie eigentlich bis jetzt nie getäuscht hat, doch leider haben Sie sich doch einmal geirrt. Nun bekommen Sie dafür die Rechnung serviert. Sie haben sich in einer Person sehr getäuscht und wurden hintergangen. Ihre Wut kommt zum Ausdruck und macht alles noch viel schlimmer! Dieser falschen Freundschaft wurde nun ein Ende gesetzt. Anfangs verzeihen Sie sich den einmaligen Fehler selbst nicht, doch sobald ein wenig Zeit vergangen ist, werden Sie merken, dass Ihre Entscheidung bestimmt richtig war."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "skorpion",
+        "text": "Mit Ihrer überaus sympathischen Ausstrahlung beweisen Sie einmal mehr, wie geschickt Sie Leute um den Finger wickeln können. In der Arbeitswelt dirigieren Sie ihre Kollegen und Mitarbeiter gekonnt und steigen dabei sehr erfolgreich aus. Auch im Privatleben hat Ihr Partner keine Chance und will Ihnen jeden Gefallen von den Augen ablesen. Nutzen Sie diese angenehme Situation nicht nur zu Ihrem reinen Vorteil aus, denn das Blatt wendet sich schneller als man denkt. Die Motivation Ihrer Mitmenschen kann alle gemeinsam zum Erfolg führen."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "schuetze",
+        "text": "Ihr Ehrgeiz wird nun aktiviert, doch leider zur falschen Zeit und auf die falsche Weise. Denn wenn Sie Ihrem Ehrgeiz jetzt zu sehr nachgeben, werden Sie Konflikte mit Vorgesetzten, Konkurrenten oder anderen Menschen hervorrufen und wohl auch Rückschläge erleiden. Die anderen Menschen fühlen sich derzeit nämlich schnell von Ihrer Intensität bedroht und gehen auf Abwehr. Deswegen ist es nun Ihre Aufgabe, dies zu spüren und Ihrem Ehrgeiz nicht zu erlauben, diese Grenze zu überschreiten. Besondere Vorsicht vor Rechtskonflikten und unsicheren Geldanlagen ist jetzt geboten! Auch gesundheitliche Belastungen können jetzt auftreten."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "steinbock",
+        "text": "Wenn es sich zu kämpfen lohnt, tun Sie das auch und Ihr Umfeld weiß das zu schätzen. Dinge, Situationen und Menschen, die von großer Wichtigkeit sind, lassen Sie nicht so schnell los. Da sind Dramen natürlich vorprogrammiert und auch immer wieder Verluste, mit denen Sie klarkommen müssen. Sie können jedoch damit umgehen und sollte es anfangs nicht so sein, finden Sie Wege und Mittel, um zumindest daraus zu lernen. Ehrlich zu sich selbst sind Sie ja, Sie thronen auf solider Basis, vergessen Sie das nicht."
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "wassermann",
+        "text": "Wollen Sie so bis zur Erschöpfung weitermachen oder gibt es Alternativen? Natürlich gibt es die! Und wer, wenn nicht Sie kennt andere Wege? Glauben Sie an Ihre Fähigkeiten und Fertigkeiten und handeln Sie danach! Im Grunde bringen Sie alles mit, was Sie benötigen, warum also fällt es Ihnen so schwer? Grenzsetzung ist ein Grundthema Ihres Alltags, um der Mensch zu werden, der Sie wirklich sind. Und wenn Sie darüber Bescheid wissen, heißt es freie Bahn!"
+    },
+    {
+        "func": "get_horoscope_ap",
+        "zodiac_sign": "fische",
+        "text": "Sie sind heute ein absolutes Energiebündel, Sie fühlen sich, als könnten Sie die Welt zerreißen und jedes Problem im Handumdrehen lösen. Doch geben Sie Acht, es kann zu einem plötzlichen Energieverlust kommen, der kommt dann so überraschend, dass Sie mit der energielosen Situation nicht gut umgehen können. Sie wollen dann zu viel! Dabei sollten Sie dann aber so intelligent sein und auf Ihren Körper hören."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "widder",
+        "text": "Eine romantische Stimmung verleitet Sie zum Tagträumen. Sie betrachten vieles durch die rosarote Brille. Sie sind entsprechend mitfühlend, hilfsbereit und offen für die Freuden und Leiden der anderen. Alles Romantische, Kreative und Fantasievolle erfüllt Sie mit Freude, vorausgesetzt Sie vergessen dabei die Wirklichkeit nicht."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "stier",
+        "text": "Sind Sie schon am frühen Morgen sauer, weil Sie sich zu viel aufgeladen haben? Verantwortung kann ganz schön drücken. Nehmen Sie sich trotzdem Zeit, für Ihr eigenes Wohlbefinden zu sorgen. Je besser es Ihnen geht, desto leistungsfähiger sind Sie."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "zwillinge",
+        "text": "Beziehungen sind nicht immer vernünftig und heute dürfte der Verstand ein besonders kühles Licht auf Liebe, Nähe und Gemeinsamkeit werfen und Sie zum rationalen Argumentieren oder auch zu einer klaren Aussprache motivieren."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "krebs",
+        "text": "Werden Sie mehr und mehr sauer, weil Sie sich zu viel aufgeladen haben? Verantwortung kann ganz schön drücken. Nehmen Sie sich trotzdem Zeit, für Ihr eigenes Wohlbefinden zu sorgen. Je besser es Ihnen geht, desto leistungsfähiger sind Sie."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "loewe",
+        "text": "Heute funktioniert nichts nach Plan, entweder weil Sie den Alltagsrhythmus bewusst und aktiv umkrempeln oder weil Sie von äußeren Umständen dazu veranlasst werden. Sie können darüber lachen und die frische Brise genießen. Halten Sie zu sehr an einer eingefahrenen Bahn fest, so müssen Sie allerdings mit unangenehmen Überraschungen rechnen."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "jungfrau",
+        "text": "Heute ärgert es Sie besonders, wenn Sie in einer Sache nicht weiterwissen und Hilfe einholen müssen. Sie möchten sich stetig weiterbilden und Ihren Horizont erweitern."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "waage",
+        "text": "Sagen Sie Ihre Meinung! Verbale Durchsetzung ist an der Tagesordnung. Man greift Sie im Gespräch an, Sie nehmen die Herausforderung an, und in Kürze sind ein hitziger Streit oder eine gute Diskussion im Gange."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "skorpion",
+        "text": "Kommunikation ist heute besonders wichtig. Kontakte aufbauen, mit Kollegen diskutieren, ein Austausch mit Verwandten oder Nachbarn sind Beispiele, wie die innere, eventuell an Nervosität grenzende Angeregtheit Ausdruck finden kann. Geistig rege vermögen Sie jetzt relativ hohe Anforderungen an Logik und Objektivität zu erfüllen. "
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "schuetze",
+        "text": "Um in der gereizten Stimmung dieses Tages nicht allzu viel Porzellan zu zerschlagen, brauchen Sie eine sportliche Herausforderung oder körperliche Arbeit. Ein Projekt, für das Sie sich aus ganzer Kraft einsetzen können, eignet sich nicht nur als Kanal für Ihren überdurchschnittlichen Tatendrang, sondern bringt Ihnen jetzt auch besonderen Erfolg."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "steinbock",
+        "text": "Entspricht Ihre berufliche Laufbahn Ihnen wirklich oder spielen Sie nur eine Rolle, von der Sie glauben, sie spielen zu müssen? Empfinden Sie den Beruf als Berufung, so ruhen Sie in sich selbst und ernten Befriedigung und Erfolg. Wenn nicht, so ist die Zeit günstig, sich über die Unstimmigkeiten klar zu werden und andere Möglichkeiten zu prüfen."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "wassermann",
+        "text": "Würden Sie am liebsten ganz viel tun? Oder sind Sie ziemlich aggressiv? Ein beachtlicher Energieschub lässt Sie jetzt vieles erreichen, wenn Sie Ihre Kräfte geschickt einsetzen und nicht in Konflikten verschwenden."
+    },
+    {
+        "func": "get_horoscope_cmp",
+        "zodiac_sign": "fische",
+        "text": "Nutzen Sie diesen Tag für eine heikle Diskussion, eine anspruchsvolle Gedankenarbeit, ein Vorstellungsgespräch oder eine andere geistige Herausforderung. Ihr Verstand arbeitet ausgesprochen präzise und klar und Sie sind fähig, komplizierte Zusammenhänge zu überblicken und zu formulieren."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "widder",
+        "text": "Heute bricht dein Ehrgeiz durch. Du möchtest etwas Großes vollbringen und hängst dich dafür auch richtig rein – und kommst mit großen Schritten voran. Welcher Wunsch ist schon länger unerfüllt? Nimm dir diesen heute vor, jetzt klappt es besser mit der Verwirklichung."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "stier",
+        "text": "Die Liebe wird zum Highlight und du läufst mit einem seligen Lächeln im Gesicht durch die Welt. Das sollte dich aber nicht dazu verleiten, finanzielle Risiken einzugehen. Das lohnt sich nicht, sondern sorgt nur dafür, dass deine Ersparnisse schrumpfen. Und die sind dir als Stier doch heilig."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "zwillinge",
+        "text": "Gut möglich, dass dich der Tag mehr anstrengt, als du zugeben möchtest. Schließlich willst du doch keines deiner spannenden Projekte aufschieben und auch in der Freizeit drängt es dich nach draußen und unter Leute. Kurze Pausen zwischendurch sind aber dringend nötig."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "krebs",
+        "text": "Ganz schön lustvoll, liebe Krebse. Erotisches reizt dich, doch du zeigst dich ungeduldig, wenn dein Liebster nicht sofort anspringt. Du möchtest jetzt nicht warten, sondern voranstürmen und so viel Spannendes wie möglich erleben. Der Körper ist auch fit, aber der Geist recht unruhig."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "loewe",
+        "text": "Du handelst effektiv und erreichst damit eine ganze Menge. Dein impulsives Wesen lebst du dann in der Liebe aus: Du bringst richtig gute Ideen ins Miteinander ein und zeigst dich im Schlafzimmer ganz schön hemmungslos. Dein Liebster wird bei so viel Hingabefähigkeit begeistert sein."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "jungfrau",
+        "text": "Warum halbe Sachen akzeptieren, wenn man das Ganze auch mit 120 Prozent machen kann? Du bist für diese Einstellung das beste Beispiel. Leider aber auch dafür, dass man sich damit auch selbst unter Druck setzt. Nimm den raus, es muss nicht alles perfekt sein."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "waage",
+        "text": "Du hast den Job absolut im Griff und erntest dafür Bewunderung. Doch in der Liebe siehst du dann nicht mehr so klar. Das liegt daran, dass Neptun dir die Sicht vernebelt. Ist der Flirt nun ein Glücksgriff oder ein Reinfall? Entscheide das nicht unbedingt heute."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "skorpion",
+        "text": "Deine Ideen sind richtig gut, also sei stolz darauf, statt dir diese madig machen zu lassen. Jemand, der dich angreift, scheint nur neidisch zu sein. Lass das an dir abprallen und sag dir: Ich bin gut so, wie ich bin, und meine Ideen sind es auch. Vertrau deinem Urteil."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "schuetze",
+        "text": "Stellt man dir Hindernisse in den Weg? Dann gibt es zwei Möglichkeiten: Entweder du braust auf und ärgerst dich darüber. Oder du freust dich, weil du dein Talent als Problemlöser auf die Art optimal ausleben kannst. Du wirst viel Beifall erhalten, wenn du Variante B wählst."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "steinbock",
+        "text": "Du kannst heute eine Sache, die dir am Herzen liegt, entscheidend voranbringen. Sei stolz darauf und feiere die Erfolge nicht nur im Stillen. Warum lädst du nicht mal einen lieben Freund zum gemeinsamen Kochen zu dir nach Hause ein? Oder mehrere, notfalls via Zoom. Das würde euch allen viel Spaß machen."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "wassermann",
+        "text": "Der Job steht im Fokus und hier handelst du auch sehr klug und überlegt. Doch in der Liebe tun sich Spannungen auf. Dein Partner scheint schon aus Prinzip eine andere Meinung zu haben als du. Aber das hat auch etwas Gutes: So wird es wenigstens nicht langweilig."
+    },
+    {
+        "func": "get_horoscope_hk",
+        "zodiac_sign": "fische",
+        "text": "Heute stellst du dein Talent zur Innovation unter Beweis. Bewährte Methoden langweilen dich dagegen schnell, du möchtest alles anders und natürlich besser machen. Das gelingt dir auch in den allermeisten Fällen. Am Abend heißt es: leidenschaftliche Erotik genießen und sich verzaubern lassen."
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "widder",
+        "text": "Heute wird Ihr Interesse an ausgefallenen Themen durch eine anregende Diskussion mit jemandem geweckt, der ähnlich denkt wie Sie.. Vielleicht geht es dabei um UFOs und das Leben auf anderen Planeten. Plötzlich betrachten Sie Ihr ganzes Leben, als ob Sie ein Darsteller in einem Science Fiction-Roman wären. Tauschen Sie Bücher und Literatur mit Menschen aus, die sich ebenso wie Sie für solche Themen begeistern können. Es ist immer gut, auf Seelenverwandte zu treffen.Werden Sie diese Woche Ihrer großen Liebe begegnen?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "stier",
+        "text": "Sie befinden sich vielleicht in einer schwierigen Lage weil jemand Ihr Verhalten in bestimmten Situationen missbilligt. Möglicherweise wurde eine Ihrer spontanen Bemerkungen falsch ausgelegt oder jemand ist überempfindlich und interpretiert Ihre Worte anders als sie gemeint waren. Doch mit bissigen Bemerkungen Ihrerseits verschlimmern Sie die Sache noch weiter, und dabei könnten Sie Scherben im Porzellanladen verursachen. Vermutlich wird man Ihre Worte nämlich ernster nehmen, als Sie glauben.>>> Das Tarot weist Ihnen den Weg in die Zukunft! Ergreifen Sie die Chance!"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "zwillinge",
+        "text": "Bestimmte Informationen, auf die Sie über Internet, E-Mail oder andere moderne Kommunikationsmittel stoßen, eröffnen Ihnen interessante Perspektiven zur Verbesserung Ihrer derzeitigen Situation. Vielleicht entdecken Sie neue Möglichkeiten zur finanziellen Unabhängigkeit. Vielleicht erfahren Sie von Methoden, Ihr Bewusstsein zu erweitern und dabei neue Menschen mit ähnlichen Interessen kennen zu lernen. Der heutige Tag ist Vorbote einer neuen Ära des Wachstums und des Abenteuers, auf die Sie sich freuen können. Es sind Ihnen keine Grenzen gesetzt.Von welchen Kräften werden Sie getrieben?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "krebs",
+        "text": "Entscheidungen müssen gar nicht so schwierig sein wie Sie meinen. Wahrscheinlich fühlen Sie sich in eine bestimmte Richtung gezogen, wozu also der Widerstand? Sie machen sich nur selbst verrückt, wenn Sie alle Vor- und Nachteile auflisten und zu analysieren versuchen, warum Sie den Ihnen vorbestimmten Weg beschreiten oder nicht beschreiten sollten. Machen Sie es sich nicht so schwer: lassen Sie den Dingen ihren Lauf, anstatt verstandesmäßig permanent mit neuen Argumenten gegen diesen Weg zu argumentieren.Nehmen Sie sich Zeit für die Liebe!"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "loewe",
+        "text": "Sie besitzen einen starken Hang zum kreativen Schaffen. Bürokratischer Papierkram und Formulare liegen Ihnen weniger. Doch heute werden Sie sich wohl oder übel damit abfinden müssen. Glücklicherweise sind Sie diszipliniert und haben auch einen gewissen Sinn fürs Geschäftliche, so dass Sie alles in kürzester Zeit hinter sich bringen, was gemacht werden muss. Vielleicht gönnen Sie sich dann nach Feierabend ein feines Essen in einem guten Lokal - als Ausgleich sozusagen. Sie haben es sich verdient!>>> Karriere: Werden Sie Ihre Traumarbeit finden?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "jungfrau",
+        "text": "Es ist höchste Zeit, sich ein paar Dinge einzugestehen. Zerbrechen Sie den Besen, mit dem Sie diese Dinge normalerweise unter den Teppich kehren. Sie befinden sich im Wirkungskreis starker Emotionen. Leider wird es in dieser Situation ungleich schwieriger sein, die lebenslustige und fröhliche Person zu sein, die Sie sonst sind. Die Kräfte des Universums erinnern Sie daran, dass Sie einige schon seit längerem unerledigte, emotionale Akten aufzubereiten und abzuschließen haben. Je mehr Sie heute erledigen, desto freier werden Sie sich morgen fühlen.Wem können Sie wirklich vertrauen?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "waage",
+        "text": "Versuchen Sie gar nicht erst zu verstehen, was heute passiert, denn Sie werden sowieso nicht dahinter kommen. Überraschend ist es übrigens nicht, wenn man bedenkt, welche zusammenwirkenden Strömungen auf Ihr Leben Einfluss nehmen. Vielleicht machen Sie jetzt so einige Gewissensprüfungen durch, weil Sie sich in diesem riesigen Universum nur wie ein winziges Staubkorn fühlen. Doch halten Sie sich nicht zu sehr damit auf, Löcher in die Wand zu starren. Bemühen Sie sich um Antworten.>>> Unsere Top-Experten begleiten Sie auf Ihrem Weg: spirituelle Lebensberatung"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "skorpion",
+        "text": "Von Natur her sind Sie sehr intuitiv veranlagt. Vielleicht haben Sie sich schon überlegt, Ihre psychischen Fähigkeiten weiterzubilden. Am heutigen Tag interessieren Sie sich vielleicht ganz besonders für Astrologie, Numerologie, Alchemie oder auch für Dinge wie Hypnose, Telepathie oder Wiedergeburt. Tatsächlich sind Sie heute all diesen Aspekten gegenüber, die sich dem Verstand entziehen, besonders empfänglich, weshalb Sie diese Chance nutzen sollten. Schieben Sie es nicht länger auf!Karriere: Haben Sie die richtige Entscheidung getroffen?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "schuetze",
+        "text": "Heute müssen Sie sich vor Rechtsanwälten, Bankdirektoren und Börsenmaklern in Acht nehmen. Einer von ihnen könnte Ihnen Informationen geben, die zwar in seinem besten Interesse sind, jedoch keinesfalls in Ihrem eigenen. Deshalb ist es am besten, Sie machen Ihre eigenen Nachforschungen, bevor Sie sich für eine Anlage entscheiden, die man Ihnen empfiehlt.>>> Werden Sie Ihre Projekte dieses Jahr in die Tat umsetzen können?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "steinbock",
+        "text": "Heute ist wohl unmöglich, eine Antwort auf Ihre Fragen zu bekommen. Der Umgang mit anderen ist ausgesprochen schwerfällig. Kommt es Ihnen so vor, als könnten Sie genauso gut gegen eine Wand reden? Diese Zeichen deuten darauf hin, dass Sie heute besser in Ihrem Inneren nach Antworten suchen sollten. Der Versuch, Ihre inneren Verwirrungen nach außen zu tragen, wird nur in einem noch größeren Chaos enden. Nur Sie können wirklich wissen, was in Ihrem Inneren los ist.Karriere: Haben Sie die richtige Entscheidung getroffen?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "wassermann",
+        "text": "Sie sehen gut aus und sind heute ganz besonders gesellig, also wundern Sie sich nicht, wenn Sie heute Gastgeberin bei einer Gesellschaftsveranstaltung sind oder eine solche besuchen. Sie sind immer eine tolle Begleitung, aber heute sind Sie besonders mitreißend und werden dadurch alle Leute in Ihren Bann ziehen. Vielleicht sind Sie ja auch im Besitz interessanter Neuigkeiten, die sich niemand entgehen lassen will.>>> Sollen Sie Ihrer Beziehung eine zweite Chance geben oder sich lieber trennen?"
+    },
+    {
+        "func": "get_horoscope_mac",
+        "zodiac_sign": "fische",
+        "text": "Möglicherweise haben Sie sich in letzter Zeit mit Zahlen und Tatsachen geplagt, und dabei haben Sie womöglich sogar Rückschritte gemacht, während Sie sich den nächsten Zug überlegt haben. Die Zeit für Nachforschungen ist nun vorüber, und Sie sollten sich der Sache wieder mit Volleifer zuwenden. Bei heiklen Fragen in Bezug auf anderer Leute Eigentum sollten Sie immer größte Rücksicht walten lassen.Von welchen Kräften werden Sie getrieben?"
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "widder",
+        "text": "Heute hat es keinen Sinn, sich große Anstrengungen vorzunehmen. Fangen Sie nicht Dinge an, wenn Sie nicht sicher sind, ob Sie diese auch beenden können! Merkurs Einfluss wird Ihnen helfen Ruhe zu finden, damit Sie sich geistig etwas entspannen können. Dies wird Ihre innere Irritation etwas erleichtern."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "stier",
+        "text": "Die Genauigkeit Ihrer Ideen wird ermutigend sein. Drücken Sie sich klar aus und Ihre Nachricht wird durchkommen. Achten Sie darauf, bestimmte Substanzen nicht zu missbrauchen, da Sie auf diese sensibel reagieren. Egal ob es um Alkohol, Medikamente oder Süßigkeiten geht, passen Sie auf."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "zwillinge",
+        "text": "Sie fühlen sich entspannt, friedlich und optimistisch. Dies ist der perfekte Moment, Meinungsverschiedenheiten zu beseitigen. Sie sind in Topform und wissen dabei genau, wie Sie das zu Ihrem Vorteil nutzen können. Hören Sie aber rechtzeitig auf bevor Sie sich zu sehr vorausgaben."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "krebs",
+        "text": "Betrachten Sie die Situation anders, ohne dabei Ihre Wünsche zu verschweigen. Sie müssen sich selbst behaupten. Psychologisch sind Sie in ausgezeichneter Form! Es wäre eine gute Idee, sich eine Freizeitbeschäftigung zu suchen, die keine körperliche Kraft erfordert."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "loewe",
+        "text": "Heute werden Sie tief inspiriert sein und Ihre Instinkte werden Sie in die richtige Richtung lenken. Machen Sie das Beste daraus und versuchen Sie, bestimmte schlechte Gewohnheiten loszuwerden, insbesondere wenn es um Ihre Ernährung geht."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "jungfrau",
+        "text": "Betrachten Sie die Situation anders, ohne dabei Ihre Wünsche zu verschweigen. Sie müssen sich selbst behaupten. Psychologisch sind Sie in ausgezeichneter Form! Es wäre eine gute Idee, sich eine Freizeitbeschäftigung zu suchen, die keine körperliche Kraft erfordert."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "waage",
+        "text": "Sie knüpfen spannende Kontakte, die Ihnen Türen öffnen. Positive Freundschaften sind in Sicht. Ihr arg strapazierter Geist verlangt Momente der Entspannung als Ausgleich. Gönnen Sie sich diese und alles wird gut gehen!"
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "skorpion",
+        "text": "Sie werden feststellen, dass Sie mit Ihrer Hartnäckigkeit Recht hatten. Der Erfolg ist in greifbarer Nähe. Sie sollten sich von der täglichen Routine abwenden und nach geistiger Entspannung suchen, da Ihnen diese zur Zeit fehlt."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "schuetze",
+        "text": "Sie werden mit zahlreichen Anforderungen konfrontiert, die Ihre Energie aufbrauchen. Versuchen Sie, nicht vom Kurs abzuweichen. Ihr Schwanken zwischen Aktion und Apathie zeigt Ihnen, dass Sie tief in Ihre Reserven greifen, lassen Sie es ruhiger angehen."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "steinbock",
+        "text": "Die Leichtigkeit mit der Sie Ihre Aufgaben erledigen und der daraus resultierende Erfolg verbessert Ihre Laune nachhaltig. Zeigen Sie Ihre Dankbarkeit. Ihr Energieniveau ist gleichbleibend hoch und Sie fühlen sich für neue konstruktive Aufgaben motiviert. Sie werden in der Lage sein, sich besser zu erholen, wenn Sie mehr Flüssigkeit zu sich nehmen."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "wassermann",
+        "text": "Ihre Klarsicht wird Ihnen sehr nützlich sein, also zögern Sie nicht, Ihre Meinung zu äußern; Ihr Realismus wird Ihnen dabei nicht schaden. Es fällt Ihnen leicht, sich in geistige Aktivitäten zu vertiefen. Vergessen Sie nicht, sich auch mit anderen Dingen zu beschäftigen, um den Kopf frei zu halten."
+    },
+    {
+        "func": "get_horoscope_mhjt",
+        "zodiac_sign": "fische",
+        "text": "Sie müssen sich besser informieren, bevor Sie eine Entscheidung in Bezug auf Ihre Zukunft treffen. Nehmen Sie sich etwas Zeit. Es gibt zu viel Unruhe um Sie herum, Sie können sich nicht effektiv erholen. Es wäre eine gute Idee, Ihr Privatleben besser abzuschirmen."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "widder",
+        "text": "Der Mond im Skorpion lässt Sie heute spüren, dass Ihr Energielevel ein wenig gedrückt ist. Doch Sie lassen sich nichts anmerken. Möglicherweise kommen Sie heute einem Geheimnis auf die Spur. Sie müssen nur mit einer ganz bestimmten weiblichen Person ins Gespräch gehen. Das gelingt am besten, indem Sie sie zum Essen einladen."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "stier",
+        "text": "Der Mond und ein harmonischer Winkel schicken auch Ihnen eine Menge emotionale Kraft. Sie fühlen sich behütet und spüren, dass die Menschen in Ihrer Umgebung gerne mit Ihnen zusammen sind. Auch Ihre Liebesenergien dürften heute sehr stark sein. Vielleicht können Sie aufregende Dinge mit Ihrem Partner erleben. Oder aber wenn Sie Single sind, könnten Sie heute eine interessante Begegnung haben."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "zwillinge",
+        "text": "Der Stand des Mondes im Skorpion und seine Winkel lassen Sie sich heute wichtiger als andere erscheinen. Sie können sich ruhig in den Mittelpunkt stellen. Setzen Sie sich bezüglich einer Entscheidung mit Nachdruck durch. Lassen Sie nicht locker. Damit Sie Ihre Abwehrkräfte stärken, sollten Sie ab heute mehr frisches Obst essen. Außerdem brauchen Sie auch immer mal eine Ruhepause."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "krebs",
+        "text": "Was für ein Wochenstart! Die vielen harmonischen Winkel des Mondes im Skorpion schicken Ihnen glückreiche Ereignisse. Damit ist kein Lottogewinn, sondern die Möglichkeit, sich mit Menschen und Umständen rundum glücklich zu fühlen, gemeint. Sie werden heute Mut, Ausdauer und Kraft spüren. Möglicherweise werden Sie auch einen glücklichen Zufall erfahren. Inspirieren Sie Ihren Partner zu mehr Leidenschaft."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "loewe",
+        "text": "Ihre Woche beginnt leider mit einem harten Mondwinkel. So dürfte Ihr Montag recht zäh verlaufen. Alle Menschen um Sie herum scheinen irgendwie unzugänglich. Ihre herzliche und sonnige Art ist heute gedrückt. So sollten Sie also Ihre Erwartungen sowohl an Personen als auch an Situationen nach unten schrauben. Am Abend können Sie dann noch eine Überraschung im Familienbereich erleben."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "jungfrau",
+        "text": "Ihnen dürften die leidenschaftlichen Gefühle heute regelrecht auf der Zunge liegen. Der Skorpionmond macht Sie sehr gefühlsbetont. Der Tag ist gut geeignet, um sich stärker einer Liebe zu öffnen. Vielleicht können Sie ja Ihrem Partner wieder mal Ihre Liebe bekunden oder ihn mit einem schönen Geschenk überraschen. Falls Sie allein sind, könnten Sie heute gut Kontakte knüpfen."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "waage",
+        "text": "Der positive Einfluss des Mondes im Skorpion und andere Planetentrends schicken Ihnen heute eine sehr starke Energie. Sie wissen genau, was Sie wollen und wie Sie was besser machen können. Packen Sie es an. In Bezug auf eine bestimmte Person in Ihrem Umfeld wird Ihnen heute einiges klar. Eine Unternehmung mit netten Bekannten am Abend könnte sehr viel Spaß bereiten."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "skorpion",
+        "text": "Eine große Ansammlung von harmonischen Planetenwinkeln und die Kraft des Mondes in Ihrem Zeichen schicken Ihnen eine beträchtliche Leistungsfähigkeit. Heute können Sie effektiv und mit viel Durchblick eine wichtige berufliche Angelegenheit regeln. Lassen Sie wegen der Arbeit Ihr Privatleben nicht zu kurz kommen. Der Abend könnte, wenn Sie es wollen, recht leidenschaftlich verlaufen."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "schuetze",
+        "text": "Auch wenn Sie nicht direkt von den vielen Einflüssen des Mondes und seiner Winkel profitieren können, Sie haben einen ruhigen positiven Trend am Montag zu erwarten. Es wird sicherlich keine großen Höhepunkte, aber auch keine gravierenden Schwierigkeiten geben. Ein guter Tag um über strategische Planungen zu diskutieren oder sie zu Papier zu bringen."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "steinbock",
+        "text": "Sie haben einen harmonischen Einfluss vom Skorpionmond. Unter diesem verfügen Sie heute über ein erstaunlich taktisches Geschick. Dadurch sind Sie ein sehr guter Verhandlungspartner. Da Sie heute sehr sanft argumentieren können und eine optimistische Ausstrahlung haben, können Sie vorrangig Personen des anderen Geschlechts um den Finger wickeln. Das sollten Sie mal richtig ausnutzen."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "wassermann",
+        "text": "Der Mond steht im Skorpion, das liegt Ihnen nicht besonders. Ein harmonischer Winkel macht Sie möglicherweise weicher, als Ihnen lieb ist. Das ist für berufliche Verhandlungen sicherlich hinderlich. Vielleicht denken Sie auch viel über Ihre Vergangenheit nach und bekommen Zweifel, ob Sie in einer Angelegenheit richtig gehandelt haben. Doch am Abend haben Sie sich wieder unter Kontrolle."
+    },
+    {
+        "func": "get_horoscope_nat",
+        "zodiac_sign": "fische",
+        "text": "Ihre Woche dürfte grundsätzlich sehr positiv beginnen. Mit dem Mond im Skorpion sind Sie sehr leidenschaftlich und gehen erfolgreich die Pflichten Ihres Alltags an. Sie verfügen über gutes Durchhaltevermögen und Ihr Tempo ist heute beträchtlich. Auch am Abend sind Sie immer noch aktiv. Beleben Sie Ihre Partnerschaft mit einem romantischen Dinner."
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "widder",
+        "text": "Es kommen einige unerwartete Probleme auf Sie zu, und es fällt Ihnen ungewohnt schwer, sich daranzumachen, diese Probleme zu lösen. Verzweifeln Sie nicht und suchen Sie nach Alternativen. Überlegen Sie aber auch, wie stark Sie persönlich tatsächlich von diesen Schwierigkeiten betroffen sind. Vielleicht wäre es am besten, einfach abzuwarten und die Probleme sich selber lösen zu lassen. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "stier",
+        "text": "Die Personen, denen Sie begegnen, gehen im Allgemeinen freundlich und offen auf Sie zu. Geben Sie die Liebe, die Ihnen entgegengebracht wird, im gleichen Maß zurück und Sie werden Freunde für das Leben gewinnen. Vielleicht lernen Sie sogar den Partner oder die Partnerin fürs Leben kennen. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "zwillinge",
+        "text": "Eine Bewährungsprobe steht bevor. Seien Sie zuversichtlich und haben Sie Vertrauen in Ihre Fähigkeiten. Lassen Sie sich nicht durch andere Meinungen von Ihrer Überzeugung abbringen, sondern nutzen Sie diese Konfrontation, um Ihre Argumentation für Ihre eigene Position auszubauen und zu stärken. Vielleicht entdecken Sie ja auch noch die eine oder andere Verbesserungsmöglichkeit. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "krebs",
+        "text": "Vieles läuft nicht so, wie Sie es gerne hätten. Alle scheinen Ihnen Steine in den Weg zu legen. Versuchen Sie diese scheinbar widrigen Umstände gelassen anzunehmen und betrachten Sie sie als Herausforderungen. Wenn etwas nicht so läuft, wie Sie es gerne hätten, so kann das schlussendlich ganz unerwartet positive Effekte haben, und jeder Stein in Ihrem Weg macht den Weg nur interessanter. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "loewe",
+        "text": "Das Schicksal hat wieder einmal ein paar unerwartete Kurven geschlagen, und Sie finden sich ganz und gar nicht in der Situation wieder, die Sie geplant hatten. Nehmen Sie es nicht so schwer. Wenn alles planbar wäre, dann würden einem die unerwarteten Freuden des Lebens vorenthalten. Grämen Sie sich also nicht, sondern seien Sie wachsam, damit Sie die Perlen des Lebens nicht verpassen. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "jungfrau",
+        "text": "Sollte etwas einfach nicht gelingen, verzweifeln Sie nicht an sich selbst. Es könnte durchaus sein, dass die äußeren Umstände es einfach nicht zulassen. Schonen Sie sich lieber und lassen Sie den Dingen ihren Lauf. Manchmal ergeben sich so Situationen, die Ihnen ganz neue Möglichkeiten eröffnen. Dann ist die Zeit gekommen, wieder mit aller Kraft zu handeln. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "waage",
+        "text": "Ihre positive Lebenseinstellung wirkt ansteckend auf Leute, die mit Ihnen in Kontakt kommen. So entsteht eine harmonische Atmosphäre in Ihrer Umgebung, und die Energien können zielgerichtet genutzt werden. Nutzen Sie diese Zeit, um die emotionalen Wogen in Ihrem Arbeitsumfeld zu glätten. Damit schaffen Sie eine gute Ausgangslage, um die Herausforderungen zu bewältigen, die noch auf Sie zukommen. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "skorpion",
+        "text": "Sie fühlen sich körperlich und geistig ausgeglichen und können nun Sie selbst sein. Mit Ihrem gesteigerten Energieniveau können Sie in der Arbeit etwas voranbringen und in der Freizeit Dinge unternehmen, die sich als befriedigend erweisen werden. Es ist auch eine gute Zeit für einen freien Tag oder Urlaub. Dort können Sie in Ruhe überlegen, welche Vorhaben sich nicht lohnen weiterzuverfolgen, und ob Sie neue Projekte beginnen sollten. Jetzt haben Sie die Klarheit für kluge Entscheidungen und können sich der Situation angepasst verhalten. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "schuetze",
+        "text": "Sie können nun Situationen erleben, die auf den ersten Blick kritisch zu sein scheinen. Versuchen Sie, nichts aus dem Ruder laufen zu lassen und nichts aufzubauschen. Wenn Sie ruhig und nüchtern auf unangenehme Erlebnisse und die daraus entstehenden Gefühle reagieren, werden diese Störungen vorübergehen, ohne wirklichen Schaden anzurichten. Achten Sie auch auf Ihre Gesundheit. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "steinbock",
+        "text": "Ihre Ansichten oder Ihre Arbeit werden nun auf irgendeine Weise einer Prüfung unterzogen. Wenn es nicht so gut läuft, könnten Sie versucht sein, anderen Personen oder Umständen die Schuld zuzuweisen. Seien Sie stattdessen vorsichtig und geduldig, dann werden Sie diesen schwierigen Einfluss nicht nur unbeschadet überstehen, sondern auch daraus lernen können. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "wassermann",
+        "text": "Sie werden von einer starken Unruhe umgetrieben. Ihr hektischen Aktivitäten können andere zum Verzweifeln bringen, was Sie aber meist nicht bemerken. Was Ihnen jedoch auffallen sollte, sind die Situationen, in denen Sie durch Ihr überhastetes Handeln Fehler begehen, die Sie nachher wieder mühsam ausbügeln müssen. Manchmal würde etwas eben auch viel schneller gehen, wenn Sie sich vorher die Zeit nähmen, darüber nachzudenken. "
+    },
+    {
+        "func": "get_horoscope_shk",
+        "zodiac_sign": "fische",
+        "text": "Sie haben einen neuen Weg eingeschlagen und gehen noch etwas zaghaft auf Ihre hoch gesteckten Ziele zu. Nehmen Sie Abschied von der Vergangenheit und lassen Sie das Altbekannte zurück. Behalten Sie es in guter Erinnerung, aber konzentrieren Sie alle Kraft auf das, was vor Ihnen liegt. Nutzen Sie neue und alte Bekanntschaften, die Ihnen dabei helfen könnten. "
+    }
+]
