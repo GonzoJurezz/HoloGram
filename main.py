@@ -1,36 +1,37 @@
-from telegram.ext import Updater
-from lang.gen_horoscope import gen_horoskope
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from dotenv import load_dotenv
-import logging
 from telegram import Update
-from telegram.ext import CallbackContext
-from telegram.ext import CommandHandler
-from telegram.ext import MessageHandler, Filters
+import lang.responses as r
+import os
+
+# Begrüßung beim Hochfahren
+def start_command(update: Update, context):
+    update.message.reply_text('Ich blicke für dich in die Sterne...')
+
+# Hier wird auf User geantwortet
+def handle_message(update: Update, context):
+    text = str(update.message.text).lower()
+    response = r.sample_response(text)
+
+    update.message.reply_text(response)
+
+def error(update, context):
+    print(f"Update {update} cause error {context.error}")
 
 
-load_dotenv()
+def main():
+    load_dotenv()
+    updater = Updater(token=os.getenv('TOKEN'), use_context=True)
+    dispatcher = updater.dispatcher
 
-updater = Updater(token=os.getenv('TOKEN'), use_context=True)
-dispatcher = updater.dispatcher
+    dispatcher.add_handler(CommandHandler("start", start_command))
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
+    dispatcher.add_handler(MessageHandler(Filters.text, handle_message))
 
+    dispatcher.add_error_handler(error)
 
-def start(update: Update, context: CallbackContext):
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Ich blicke in die Sterne")
+    updater.start_polling()
+    updater.idle()
 
+main()
 
-start_handler = CommandHandler('start', start)
-dispatcher.add_handler(start_handler)
-
-
-def echo(update: Update, context: CallbackContext):
-    context.bot.send_message(chat_id=update.effective_chat.id, text=gen_horoskope())
-
-
-echo_handler = MessageHandler(Filters.text & (~Filters.command), echo)
-dispatcher.add_handler(echo_handler)
-
-
-updater.start_polling()
