@@ -4,10 +4,10 @@ import os
 import re
 
 
-TEST_DATASET_PERCENTAGE=0.15
+TEST_DATASET_PERCENTAGE = 0.15
 
 
-def load_json(file_name:str):
+def load_json(file_name: str):
     '''
     Load json file from json file name.
 
@@ -40,10 +40,15 @@ def build_dataset(json_data:list):
     for dict in json_data:
 
         text = str(dict['text']).strip()
+
+        if text == '':
+            continue
         # Replace every whitespace character with space
         text = re.sub(r"\s", " ", text)
         # Cut occurring ">" and "<"
         text = re.sub(r"<|>", "", text)
+        # Add key phrase on start to focus training
+        text = "Ihr Horoskop heute ist: " + text
 
         data += text + "\n"
 
