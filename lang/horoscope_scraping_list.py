@@ -18,14 +18,6 @@ class horoscopeOutput:
             horoscope_txt = soup.find('div', class_='txt').p.text
             return horoscope_txt
 
-    # horoskop: www.astroportal.com
-        def get_horoscope_ap(zodiac_sign: str):
-            res = requests.get(
-                f"https://www.astroportal.com/tageshoroskope/{zodiac_sign}/")
-
-            soup = BeautifulSoup(res.content, 'lxml')
-            horoscope_txt = soup.find('h4', class_ ='h2').parent.p.text
-            return horoscope_txt
 
     # horoskop: https://natune.net
         def get_horoscope_nat(zodiac_sign: str):
