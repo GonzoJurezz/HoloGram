@@ -1,4 +1,4 @@
-from utils_ger import horoscopeOutput
+from horoscope_scraping_list import horoscopeOutput
 import json
 from datetime import datetime
 import inspect
